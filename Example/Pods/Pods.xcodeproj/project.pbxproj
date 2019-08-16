@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30C2BF035E6188BFC6FFE2DD0A96C042 /* MZTableLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD5E3918C039422C4F14A839AD53F2 /* MZTableLayout-dummy.m */; };
+		73564AD1370114B112C579AB2746C3EC /* MZTableLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 783EDF446CB0B44F10A4A9217B17D8F5 /* MZTableLayout-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		97E08322B8BDF187E3DA314716720DA0 /* Pods-MZTableLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D135C2899978AAE54E80A06EE6D0C3 /* Pods-MZTableLayout_Tests-dummy.m */; };
+		A8076F5B24A09E4318C4E854C0381A25 /* Pods-MZTableLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790BD0E2381C043B2E518DF8A35E9545 /* Pods-MZTableLayout_Example-dummy.m */; };
+		B5B835ACA8A25105779C69A828ED879F /* MZTableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810ECB95DE77FCDA97D332DDEFEE140D /* MZTableLayout.swift */; };
+		E02CDD7AF743ECF2B0B37882126121F9 /* Pods-MZTableLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08907AE95D0E28C3D8F28A20604AD6E0 /* Pods-MZTableLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5FD8EBA4963FCE3C353029CB76C9C46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85BA75F5C42CD0DA2ED52A7FA9B1829;
+			remoteInfo = "Pods-MZTableLayout_Example";
+		};
+		F7988DF27314F75759BBCED9FC97FF62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C6451EAA2903B69F57DC91B78D8947;
+			remoteInfo = MZTableLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FD5E3918C039422C4F14A839AD53F2 /* MZTableLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZTableLayout-dummy.m"; sourceTree = "<group>"; };
+		07EFBB0101089F4C7C034E06B8429D51 /* Pods-MZTableLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZTableLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		08907AE95D0E28C3D8F28A20604AD6E0 /* Pods-MZTableLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZTableLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		1AE396F86C12E65C14B869AC6FAE3558 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		24414028FDAD75344C1E529E32319E40 /* MZTableLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZTableLayout.xcconfig; sourceTree = "<group>"; };
+		459678D66FBAB241DDE1C7158462E261 /* Pods-MZTableLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZTableLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EB40CBD5DD1B39D9DDFF31FB2C7C1A9 /* Pods-MZTableLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZTableLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		61BEFB3DB7DDD9C07F594133D17BE7E3 /* Pods-MZTableLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZTableLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		783EDF446CB0B44F10A4A9217B17D8F5 /* MZTableLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZTableLayout-umbrella.h"; sourceTree = "<group>"; };
+		790BD0E2381C043B2E518DF8A35E9545 /* Pods-MZTableLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZTableLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		7A7F0B6298C71348DC26B10067D47D67 /* Pods-MZTableLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZTableLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		810ECB95DE77FCDA97D332DDEFEE140D /* MZTableLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZTableLayout.swift; path = MZTableLayout/Classes/MZTableLayout.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A201884AD605B156D8E7ACB1380289C5 /* Pods-MZTableLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZTableLayout_Example.modulemap"; sourceTree = "<group>"; };
+		A8D135C2899978AAE54E80A06EE6D0C3 /* Pods-MZTableLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZTableLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		B5F9AAFB7AB6AA8068CE5870C6A5C70C /* MZTableLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZTableLayout-prefix.pch"; sourceTree = "<group>"; };
+		C19330AA44383A530A035292B15D02E6 /* Pods-MZTableLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZTableLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C70A474D4666070E5AAE45A94E26F132 /* libMZTableLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMZTableLayout.a; path = libMZTableLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC58820E8FDFAB8DD14CCDC1D8B728E8 /* MZTableLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MZTableLayout.modulemap; sourceTree = "<group>"; };
+		D3D7D2490B713638A987E05622CB8BB8 /* Pods-MZTableLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZTableLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1993752614FD136E8BA1410C4AFF78C /* libPods-MZTableLayout_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MZTableLayout_Tests.a"; path = "libPods-MZTableLayout_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC78E83A263910272C3DC764A85F3F8A /* Pods-MZTableLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZTableLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FAA276FBA92170F0C56C9CD346958A53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FC951B4F9F53F61CB83C55FE21B22603 /* libPods-MZTableLayout_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MZTableLayout_Example.a"; path = "libPods-MZTableLayout_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCF88FDA547A62828C534C93FB34328C /* MZTableLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MZTableLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527686EA047CC47597FEEACB27668058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F0428A7E13E9D1C82DD1B51CB70238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D560699DCBBEA601F00FACEE4A9392C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06EDE4B4D6D15EC43FCC1C701C909E49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD64D6338ACA494EB1F0BDDAE5813C6 /* Pods-MZTableLayout_Example */,
+				C322D67DB9F2B4E621F5162E6A06223E /* Pods-MZTableLayout_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8D186FF23B92DF2625665E7073051B3A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC58820E8FDFAB8DD14CCDC1D8B728E8 /* MZTableLayout.modulemap */,
+				24414028FDAD75344C1E529E32319E40 /* MZTableLayout.xcconfig */,
+				00FD5E3918C039422C4F14A839AD53F2 /* MZTableLayout-dummy.m */,
+				B5F9AAFB7AB6AA8068CE5870C6A5C70C /* MZTableLayout-prefix.pch */,
+				783EDF446CB0B44F10A4A9217B17D8F5 /* MZTableLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MZTableLayout";
+			sourceTree = "<group>";
+		};
+		9BC76E00684AB57ADD987EC0D961A56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70A474D4666070E5AAE45A94E26F132 /* libMZTableLayout.a */,
+				FC951B4F9F53F61CB83C55FE21B22603 /* libPods-MZTableLayout_Example.a */,
+				E1993752614FD136E8BA1410C4AFF78C /* libPods-MZTableLayout_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0605EA22AC7C121B6787FF1D135DE70 /* MZTableLayout */ = {
+			isa = PBXGroup;
+			children = (
+				810ECB95DE77FCDA97D332DDEFEE140D /* MZTableLayout.swift */,
+				EE953A5678C92CD5977D82040703741C /* Pod */,
+				8D186FF23B92DF2625665E7073051B3A /* Support Files */,
+			);
+			name = MZTableLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C322D67DB9F2B4E621F5162E6A06223E /* Pods-MZTableLayout_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C19330AA44383A530A035292B15D02E6 /* Pods-MZTableLayout_Tests-acknowledgements.markdown */,
+				07EFBB0101089F4C7C034E06B8429D51 /* Pods-MZTableLayout_Tests-acknowledgements.plist */,
+				A8D135C2899978AAE54E80A06EE6D0C3 /* Pods-MZTableLayout_Tests-dummy.m */,
+				459678D66FBAB241DDE1C7158462E261 /* Pods-MZTableLayout_Tests.debug.xcconfig */,
+				5EB40CBD5DD1B39D9DDFF31FB2C7C1A9 /* Pods-MZTableLayout_Tests.release.xcconfig */,
+			);
+			name = "Pods-MZTableLayout_Tests";
+			path = "Target Support Files/Pods-MZTableLayout_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E28FC05C1736314802BFF493BAD63192 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				9BC76E00684AB57ADD987EC0D961A56C /* Products */,
+				06EDE4B4D6D15EC43FCC1C701C909E49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD64D6338ACA494EB1F0BDDAE5813C6 /* Pods-MZTableLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A201884AD605B156D8E7ACB1380289C5 /* Pods-MZTableLayout_Example.modulemap */,
+				7A7F0B6298C71348DC26B10067D47D67 /* Pods-MZTableLayout_Example-acknowledgements.markdown */,
+				D3D7D2490B713638A987E05622CB8BB8 /* Pods-MZTableLayout_Example-acknowledgements.plist */,
+				790BD0E2381C043B2E518DF8A35E9545 /* Pods-MZTableLayout_Example-dummy.m */,
+				08907AE95D0E28C3D8F28A20604AD6E0 /* Pods-MZTableLayout_Example-umbrella.h */,
+				EC78E83A263910272C3DC764A85F3F8A /* Pods-MZTableLayout_Example.debug.xcconfig */,
+				61BEFB3DB7DDD9C07F594133D17BE7E3 /* Pods-MZTableLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-MZTableLayout_Example";
+			path = "Target Support Files/Pods-MZTableLayout_Example";
+			sourceTree = "<group>";
+		};
+		E28FC05C1736314802BFF493BAD63192 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0605EA22AC7C121B6787FF1D135DE70 /* MZTableLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EE953A5678C92CD5977D82040703741C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1AE396F86C12E65C14B869AC6FAE3558 /* LICENSE */,
+				FCF88FDA547A62828C534C93FB34328C /* MZTableLayout.podspec */,
+				FAA276FBA92170F0C56C9CD346958A53 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		579E4986AA1A8D0C36A3ECF9153C62EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02CDD7AF743ECF2B0B37882126121F9 /* Pods-MZTableLayout_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA90428022CF88B3648CF4E19C16BEC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8381157194E6CBC583DACE45F16B325 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73564AD1370114B112C579AB2746C3EC /* MZTableLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04C6451EAA2903B69F57DC91B78D8947 /* MZTableLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768D1AD8E0CD981FC391685C48ECFA4A /* Build configuration list for PBXNativeTarget "MZTableLayout" */;
+			buildPhases = (
+				D8381157194E6CBC583DACE45F16B325 /* Headers */,
+				58848197CCBBFBE88AD4B2E2521DCFE1 /* Sources */,
+				527686EA047CC47597FEEACB27668058 /* Frameworks */,
+				67289CAC9A88222C717688A2ADFE89B3 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZTableLayout;
+			productName = MZTableLayout;
+			productReference = C70A474D4666070E5AAE45A94E26F132 /* libMZTableLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D85BA75F5C42CD0DA2ED52A7FA9B1829 /* Pods-MZTableLayout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E956655357A1FA9421A0E36AF3BA07DE /* Build configuration list for PBXNativeTarget "Pods-MZTableLayout_Example" */;
+			buildPhases = (
+				579E4986AA1A8D0C36A3ECF9153C62EC /* Headers */,
+				6EAB72BC48E19DC8F55C04E21475340E /* Sources */,
+				8D560699DCBBEA601F00FACEE4A9392C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFDD7A0B575BD62574646317A22F155B /* PBXTargetDependency */,
+			);
+			name = "Pods-MZTableLayout_Example";
+			productName = "Pods-MZTableLayout_Example";
+			productReference = FC951B4F9F53F61CB83C55FE21B22603 /* libPods-MZTableLayout_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E8D8A54422DBE01506CE8CC41D43E75F /* Pods-MZTableLayout_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9497AC251C08F59EF87A9814D25DF2D5 /* Build configuration list for PBXNativeTarget "Pods-MZTableLayout_Tests" */;
+			buildPhases = (
+				AA90428022CF88B3648CF4E19C16BEC7 /* Headers */,
+				A99A1F8CAB453A6ACE350C31696ECF1B /* Sources */,
+				77F0428A7E13E9D1C82DD1B51CB70238 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9276051F5C0817C491E26F81ADC6380F /* PBXTargetDependency */,
+			);
+			name = "Pods-MZTableLayout_Tests";
+			productName = "Pods-MZTableLayout_Tests";
+			productReference = E1993752614FD136E8BA1410C4AFF78C /* libPods-MZTableLayout_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9BC76E00684AB57ADD987EC0D961A56C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C6451EAA2903B69F57DC91B78D8947 /* MZTableLayout */,
+				D85BA75F5C42CD0DA2ED52A7FA9B1829 /* Pods-MZTableLayout_Example */,
+				E8D8A54422DBE01506CE8CC41D43E75F /* Pods-MZTableLayout_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67289CAC9A88222C717688A2ADFE89B3 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MZTableLayout/MZTableLayout.modulemap",
+				"${PODS_ROOT}/Headers/Public/MZTableLayout/MZTableLayout-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MZTableLayout-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MZTableLayout/MZTableLayout.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MZTableLayout/MZTableLayout-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58848197CCBBFBE88AD4B2E2521DCFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C2BF035E6188BFC6FFE2DD0A96C042 /* MZTableLayout-dummy.m in Sources */,
+				B5B835ACA8A25105779C69A828ED879F /* MZTableLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EAB72BC48E19DC8F55C04E21475340E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8076F5B24A09E4318C4E854C0381A25 /* Pods-MZTableLayout_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99A1F8CAB453A6ACE350C31696ECF1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E08322B8BDF187E3DA314716720DA0 /* Pods-MZTableLayout_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9276051F5C0817C491E26F81ADC6380F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MZTableLayout_Example";
+			target = D85BA75F5C42CD0DA2ED52A7FA9B1829 /* Pods-MZTableLayout_Example */;
+			targetProxy = A5FD8EBA4963FCE3C353029CB76C9C46 /* PBXContainerItemProxy */;
+		};
+		DFDD7A0B575BD62574646317A22F155B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZTableLayout;
+			target = 04C6451EAA2903B69F57DC91B78D8947 /* MZTableLayout */;
+			targetProxy = F7988DF27314F75759BBCED9FC97FF62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		273CB3C320731515AC1DD74DD0291742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24414028FDAD75344C1E529E32319E40 /* MZTableLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MZTableLayout/MZTableLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MZTableLayout/MZTableLayout.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MZTableLayout;
+				PRODUCT_NAME = MZTableLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63BC582FC6B97777AC9A219D45207D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB40CBD5DD1B39D9DDFF31FB2C7C1A9 /* Pods-MZTableLayout_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9814B36EBF66B4EDFE6CCACE90EF93F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24414028FDAD75344C1E529E32319E40 /* MZTableLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MZTableLayout/MZTableLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MZTableLayout/MZTableLayout.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MZTableLayout;
+				PRODUCT_NAME = MZTableLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BFA5821AA44C3427CE05550F468955A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BEFB3DB7DDD9C07F594133D17BE7E3 /* Pods-MZTableLayout_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZTableLayout_Example/Pods-MZTableLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63E8E9BB8E42C1AFF42D7C4025B6801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC78E83A263910272C3DC764A85F3F8A /* Pods-MZTableLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MZTableLayout_Example/Pods-MZTableLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3C62BB762FEE0501DDF98C7B0AF944D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459678D66FBAB241DDE1C7158462E261 /* Pods-MZTableLayout_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768D1AD8E0CD981FC391685C48ECFA4A /* Build configuration list for PBXNativeTarget "MZTableLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273CB3C320731515AC1DD74DD0291742 /* Debug */,
+				9814B36EBF66B4EDFE6CCACE90EF93F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9497AC251C08F59EF87A9814D25DF2D5 /* Build configuration list for PBXNativeTarget "Pods-MZTableLayout_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C62BB762FEE0501DDF98C7B0AF944D /* Debug */,
+				63BC582FC6B97777AC9A219D45207D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E956655357A1FA9421A0E36AF3BA07DE /* Build configuration list for PBXNativeTarget "Pods-MZTableLayout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C63E8E9BB8E42C1AFF42D7C4025B6801 /* Debug */,
+				BFA5821AA44C3427CE05550F468955A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

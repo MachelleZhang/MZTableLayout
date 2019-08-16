@@ -1,0 +1,22 @@
+{
+  "name": "MZTableLayout",
+  "version": "0.1.0",
+  "summary": "A short description of MZTableLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangle/MZTableLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangle": "zhangle@boco.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/zhangle/MZTableLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MZTableLayout/Classes/**/*"
+}
