@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'MZTableLayout'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of MZTableLayout.'
+  s.swift_version    = '5.0'
+  s.summary          = 'Free collection view layout like excel sheet.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +19,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Free collection view layout like excel sheet.
+It's very easy to use.
                        DESC
 
-  s.homepage         = 'https://github.com/zhangle/MZTableLayout'
+  s.homepage         = 'https://github.com/MachelleZhang/MZTableLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangle' => 'zhangle@boco.com.cn' }
-  s.source           = { :git => 'https://github.com/zhangle/MZTableLayout.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MachelleZhang/MZTableLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
