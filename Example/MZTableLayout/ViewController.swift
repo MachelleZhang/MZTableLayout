@@ -20,6 +20,8 @@ class ViewController: UIViewController, MZTableLayoutDelegate, UICollectionViewD
         
         tableLayout = MZTableLayout.init()
         tableLayout?.delegate = self
+        tableLayout?.itemMargin = 10
+        tableLayout?.itemSpacing = 2
         collectionView = UICollectionView.init(frame: CGRect.init(x: 0, y: 100, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height-200), collectionViewLayout: tableLayout!)
         collectionView?.register(UINib.init(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CollectionViewCell")
         collectionView?.backgroundColor = .lightGray
@@ -56,6 +58,7 @@ class ViewController: UIViewController, MZTableLayoutDelegate, UICollectionViewD
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
         cell.title.text = String.init(indexPath.row)
+        cell.backgroundColor = .lightGray
         return cell
     }
     

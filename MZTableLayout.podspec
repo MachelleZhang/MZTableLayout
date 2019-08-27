@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MZTableLayout'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.swift_version    = '5.0'
   s.summary          = 'Free collection view layout like excel sheet.'
 

@@ -26,6 +26,8 @@ public protocol MZTableLayoutDelegate: class {
 public class MZTableLayout: UICollectionViewLayout {
     
     public weak var delegate: MZTableLayoutDelegate?
+    public var itemMargin: CGFloat = 0
+    public var itemSpacing: CGFloat = 0
     var itemAttributes = [UICollectionViewLayoutAttributes]()
     var contentSize = CGSize.init(width: 0, height: 0)
     
@@ -47,7 +49,8 @@ public class MZTableLayout: UICollectionViewLayout {
         let baseSize = (delegate?.baseSize(self.collectionView!))!
 
         //根据规模和基本单位，可以确定content size的大小
-        contentSize = CGSize.init(width: CGFloat(scale.0) * baseSize.width, height: CGFloat(scale.1) * baseSize.height)
+        contentSize = CGSize.init(width: CGFloat(scale.0) * baseSize.width + CGFloat(scale.0 - 1) * itemSpacing + 2 * itemMargin,
+                                  height: CGFloat(scale.1) * baseSize.height + CGFloat(scale.1 - 1) * itemSpacing + 2 * itemMargin)
         
         //根据规模生成占位数组,例如 3 * 3 的规模
         //  [ [1, 1, 1],
@@ -88,8 +91,8 @@ public class MZTableLayout: UICollectionViewLayout {
                 } else {
                     isFind = true;
                     //生成位置属性，保存
-                    var atWidth = CGFloat(tempX_single) * baseSize.width;
-                    var atHeight = CGFloat(tempY_single) * baseSize.height;
+                    var atWidth = CGFloat(tempX_single) * baseSize.width + CGFloat(tempX_single) * itemSpacing + itemMargin;
+                    var atHeight = CGFloat(tempY_single) * baseSize.height + CGFloat(tempY_single) * itemSpacing + itemMargin;
                     //冻结行列的坐标偏移
                     if frozenUnit.0 != 0 || frozenUnit.1 != 0 {
                         if tempX_single < frozenUnit.0 && tempY_single < frozenUnit.1 {
@@ -106,8 +109,8 @@ public class MZTableLayout: UICollectionViewLayout {
                     }
                     attributes.frame = CGRect.init(x: atWidth,
                                                    y: atHeight,
-                                                   width: CGFloat(curItemScale!.0) * baseSize.width,
-                                                   height: CGFloat(curItemScale!.1) * baseSize.height)
+                                                   width: CGFloat(curItemScale!.0) * baseSize.width + CGFloat(curItemScale!.0 - 1) * itemSpacing,
+                                                   height: CGFloat(curItemScale!.1) * baseSize.height + CGFloat(curItemScale!.1 - 1) * itemSpacing)
                     itemAttributes.append(attributes)
                     //移向下一个元素位置
                     xOffset = tempX_single + curItemScale!.0
@@ -184,7 +187,7 @@ public class MZTableLayout: UICollectionViewLayout {
         } else {
             return false
         }
-    }
+    }//findTheRightPlace-end
     
     //// 返回在指定rect内的布局属性
     //// 这里是通过判断元素的frame和rect是否有交集来确定是否需要显示
