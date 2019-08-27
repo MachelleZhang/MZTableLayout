@@ -9,7 +9,7 @@ Free collection view layout like excel sheet.
 # Usage
 
 ```
-pod 'MZTableLayout', '~> 1.0.0'
+pod 'MZTableLayout', '~> 1.1.0'
 ```
 
 # Update History
