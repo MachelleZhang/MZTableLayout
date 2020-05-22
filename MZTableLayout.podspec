@@ -26,7 +26,7 @@ It's very easy to use.
   s.homepage         = 'https://github.com/MachelleZhang/MZTableLayout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhangle' => 'zhangle@boco.com.cn' }
+  s.author           = { 'zhangle' => '407916482@qq.com' }
   s.source           = { :git => 'https://github.com/MachelleZhang/MZTableLayout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
