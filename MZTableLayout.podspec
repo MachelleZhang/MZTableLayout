@@ -17,7 +17,7 @@ It's very easy to use.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = '#{s.name.to_s}/*.swift'
+  s.source_files = "#{s.name.to_s}/*.swift"
   s.frameworks = 'UIKit', 'MapKit'
   
 end
