@@ -1,6 +1,0 @@
-module MZTableLayout {
-  umbrella header "MZTableLayout-umbrella.h"
-
-  export *
-  module * { export * }
-}

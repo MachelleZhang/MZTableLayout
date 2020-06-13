@@ -1,6 +1,0 @@
-framework module Pods_MZTableLayout_Tests {
-  umbrella header "Pods-MZTableLayout_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

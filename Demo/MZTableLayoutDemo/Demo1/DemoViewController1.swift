@@ -1,32 +1,33 @@
-# MZTableLayout
-类似Excel的布局样式
+//
+//  ViewController.swift
+//  MZTableLayout
+//
+//  Created by zhangle on 08/15/2019.
+//  Copyright (c) 2019 zhangle. All rights reserved.
+//
 
-[Objective-C版本](https://github.com/MachelleZhang/MZMultiHeadersSheet)
+import UIKit
 
-## 示例
-![Demo](Images/demo1.jpg)
+class DemoViewController1: UIViewController {
 
-## 安装方法
+    var collectionView: UICollectionView?
+    var tableLayout: MZTableLayout?
 
-```
-pod 'MZTableLayout', '~> 1.2.0'
-```
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        tableLayout = MZTableLayout.init()
+        tableLayout?.delegate = self
+        collectionView = UICollectionView.init(frame: CGRect.init(x: 0, y: 100, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height-200), collectionViewLayout: tableLayout!)
+        collectionView?.register(UINib.init(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "CollectionViewCell")
+        collectionView?.backgroundColor = .lightGray
+        collectionView?.dataSource = self;
+        collectionView?.isDirectionalLockEnabled = true
+        collectionView?.bounces = false
+        self.view.addSubview(collectionView!)
+    }
+}
 
-## 用法
-
-![free_layout.png](Images/free_layout.png)<br>
-在已知表格样式的前提下，按从左到右，从上到下，依次添加索引，已编号的掠过，参考上图的索引规则<br>
-
-1.设置代理
-
-```Swift
-tableLayout = MZTableLayout.init()
-tableLayout?.delegate = self
-```
-
-2.需要实现的主要代理方法
-
-```Swift
 extension DemoViewController1: MZTableLayoutDelegate {
     func totalScale(_ colletionView: UICollectionView) -> (Int, Int) {
         return (20, 20)
@@ -65,15 +66,4 @@ extension DemoViewController1: UICollectionViewDataSource {
         return 400
     }
 }
-```
 
-## 版本更新历史
-版本号|版本描述
----|---
-v. 1.0.0|初始版本，包含基本表格功能
-v. 1.1.0|增加margin和spacing属性，可方便、美观地控制间隔
-v. 1.2.0|修改width和height的计算方式，各行列可自由调整
-
-## 作者
-
-ZhangLe, 407916482@qq.com
